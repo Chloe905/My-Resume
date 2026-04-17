@@ -1,11 +1,11 @@
 <template>
   <section id="projects" class="py-20 bg-gray-50">
     <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-10">Projects</h2>
+      <h2 class="text-3xl font-bold mb-10 text-[#6b8075]">Projects</h2>
 
       <div class="grid md:grid-cols-2 gap-6">
         <div v-for="project in projects" :key="project.title" class="p-6 bg-white rounded-2xl shadow">
-          <h3 class="text-xl font-semibold mb-2">
+          <h3 class="text-xl font-semibold mb-2 text-[#6b8075]">
             {{ project.title }}
           </h3>
           <p class="text-gray-600 mb-4">
