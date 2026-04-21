@@ -79,25 +79,25 @@ const messages = {
           name: 'AWSome DAY Online Conference (Attendance Certification)',
           issuer: 'AWS',
           date: '2023.02.23',
-          image: 'src/assets/images/AWS.avif'
+          image: 'public/AWS.avif'
         },
         {
           name: 'Full Stack Web Development Program (Specialize in Back-end)',
           issuer: 'Alpha Camp',
           date: '2022.11 – 2023.04',
-          image: 'src/assets/images/FullStack.avif'
+          image: 'public/FullStack.avif'
         },
         {
           name: 'Foundation course of Online Web Development Track',
           issuer: 'Alpha Camp',
           date: '2022.06 – 2022.11',
-          image: 'src/assets/images/WebDevelopmentTrack.avif'
+          image: 'public/WebDevelopmentTrack.avif'
         },
         {
           name: 'Gemini Certified Educator',
           issuer: 'Gemini',
           date: '2025.09.15',
-          image: 'src/assets/images/Gemini.png'
+          image: 'public/Gemini.png'
         }
       ]
     }
@@ -180,25 +180,25 @@ const messages = {
           name: 'AWSome DAY Online Conference (Attendance Certification)',
           issuer: 'AWS',
           date: '2023.02.23',
-          image: 'src/assets/images/AWS.avif'
+          image: 'public/AWS.avif'
         },
         {
           name: 'Full Stack Web Development Program (Specialize in Back-end)',
           issuer: 'Alpha Camp',
           date: '2022.11 – 2023.04',
-          image: 'src/assets/images/FullStack.avif'
+          image: 'public/FullStack.avif'
         },
         {
           name: 'Foundation course of Online Web Development Track',
           issuer: 'Alpha Camp',
           date: '2022.06 – 2022.11',
-          image: 'src/assets/images/WebDevelopmentTrack.avif'
+          image: 'public/WebDevelopmentTrack.avif'
         },
         {
           name: 'Gemini Certified Educator',
           issuer: 'Gemini',
           date: '2025.09.15',
-          image: 'src/assets/images/Gemini.png'
+          image: 'public/Gemini.png'
         }
       ]
     }
@@ -281,25 +281,25 @@ const messages = {
           name: 'AWSome DAY Online Conference (Attendance Certification)',
           issuer: 'AWS',
           date: '2023.02.23',
-          image: 'src/assets/images/AWS.avif'
+          image: 'public/AWS.avif'
         },
         {
           name: 'Full Stack Web Development Program (Specialize in Back-end)',
           issuer: 'Alpha Camp',
           date: '2022.11 – 2023.04',
-          image: 'src/assets/images/FullStack.avif'
+          image: 'public/FullStack.avif'
         },
         {
           name: 'Foundation course of Online Web Development Track',
           issuer: 'Alpha Camp',
           date: '2022.06 – 2022.11',
-          image: 'src/assets/images/WebDevelopmentTrack.avif'
+          image: 'public/WebDevelopmentTrack.avif'
         },
         {
           name: 'Gemini Certified Educator',
           issuer: 'Gemini',
           date: '2025.09.15',
-          image: 'src/assets/images/Gemini.png'
+          image: 'public/Gemini.png'
         }
       ]
     }
