@@ -20,6 +20,9 @@ const { t } = useI18n();
         {{ t('hero.subtitle') }}
       </p>
 
+      <p class="text-gray-400 text-sm mb-4">
+        {{ t('hero.experience') }}
+      </p>
       <p class="text-gray-500 mb-6">
         {{ t('hero.desc') }}
       </p>

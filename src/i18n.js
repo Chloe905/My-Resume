@@ -7,7 +7,8 @@ const messages = {
       subtitle: 'Full-Stack Engineer  · Vue Specialist  · node.js',
       desc: 'full-stack development experience. Build user-centered, visually refined web experiences.',
       projects: 'View Projects',
-      contact: 'Contact Me'
+      contact: 'Contact Me',
+      experience: '3 Years of Development Experience'
     },
     nav: {
       projects: 'Projects',
@@ -107,7 +108,8 @@ const messages = {
       subtitle: '全端工程師  · Vue  · node.js',
       desc: '全端開發經驗，專注打造以使用者為核心的高品質網頁體驗',
       projects: '查看作品',
-      contact: '聯絡我'
+      contact: '聯絡我',
+      experience: '3 年開發經驗'
     },
     nav: {
       projects: '作品',
@@ -211,7 +213,8 @@ const messages = {
       subtitle: 'Full-Stack Engineer  · Vue専門  · node.js',
       desc: 'ユーザー中心の高品質なWeb体験を構築します。',
       projects: 'プロジェクトを見る',
-      contact: 'お問い合わせ'
+      contact: 'お問い合わせ',
+      experience: '3 年の開発経験'
     },
     footer: {
       text: '© 2026 Chloe'
