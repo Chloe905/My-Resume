@@ -25,13 +25,13 @@ const { t } = useI18n();
       </p>
 
       <div class="space-x-4">
-        <button class="bg-[#6b8075] text-white px-6 py-3 rounded-xl hover:bg-white hover:text-[#6b8075] hover:border-[#6b8075] hover:border">
-          <a href="#projects">{{ t('hero.projects') }}</a>
-        </button>
+        <a href="#projects" class="bg-[#6b8075] text-white px-6 py-3 rounded-xl inline-block hover:bg-white hover:text-[#6b8075] hover:border-[#6b8075] hover:border transition">
+          {{ t('hero.projects') }}
+        </a>
 
-        <button class="border border-[#6b8075] text-[#6b8075] px-6 py-3 rounded-xl hover:bg-[#6b8075] hover:text-white">
-          <a href="#contact">{{ t('hero.contact') }}</a>
-        </button>
+        <a href="#contact" class="border border-[#6b8075] text-[#6b8075] px-6 py-3 rounded-xl hover:bg-[#6b8075] hover:text-white transition">
+          {{ t('hero.contact') }}
+        </a>
       </div>
     </div>
   </section>
