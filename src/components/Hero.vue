@@ -9,7 +9,7 @@ const { t } = useI18n();
     <div>
       <!-- 👇 大頭貼 -->
       <div class="flex justify-center mb-6">
-        <img src="../assets/webp.jpeg" alt="avatar" class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg" />
+        <img src="../assets/avatar.webp" alt="avatar" class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg" />
       </div>
 
       <h1 class="text-xl md:text-4xl font-bold mb-4 text-[#6b8075]">
