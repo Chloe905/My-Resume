@@ -26,7 +26,7 @@ const projects = computed(() => [
 <template>
   <section id="projects" class="py-20 px-6">
     <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">Projects</h2>
+      <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">{{ t('projects.title') }}</h2>
 
       <div class="grid md:grid-cols-2 gap-6">
         <div v-for="project in projects" :key="project.title" class="text-primary-dark rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition">
