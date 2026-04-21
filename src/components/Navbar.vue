@@ -29,8 +29,8 @@ const selectLang = (lang) => {
       <h1 class="font-bold">Chloe</h1>
 
       <div class="flex items-center space-x-6">
-        <a href="#projects">{{ t('hero.projects') }}</a>
-        <a href="#contact">{{ t('hero.contact') }}</a>
+        <!-- <a href="#projects">{{ t('hero.projects') }}</a> -->
+        <a href="#contact"><i class="fa-regular fa-envelope"></i></a>
 
         <!-- Dropdown -->
         <div class="relative">

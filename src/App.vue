@@ -4,6 +4,7 @@ import Hero from './components/Hero.vue';
 import Skill from './components/Skill.vue';
 import Projects from './components/Projects.vue';
 import Experience from './components/Experience.vue';
+import Certifications from './components/Certifications.vue';
 import Footer from './components/Footer.vue';
 </script>
 
@@ -14,6 +15,7 @@ import Footer from './components/Footer.vue';
     <Skill />
     <Projects />
     <Experience />
+    <Certifications />
     <Footer />
   </div>
 </template>

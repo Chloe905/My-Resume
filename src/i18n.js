@@ -5,7 +5,7 @@ const messages = {
     hero: {
       title: 'Hi, I am Chloe ',
       subtitle: 'Full-Stack Engineer  · Vue Specialist  · node.js',
-      desc: 'I build user-centered, visually refined web experiences.',
+      desc: 'full-stack development experience. Build user-centered, visually refined web experiences.',
       projects: 'View Projects',
       contact: 'Contact Me'
     },
@@ -70,13 +70,42 @@ const messages = {
       en: 'English',
       zh: 'Chinese',
       ja: 'Japanese'
+    },
+    certifications: {
+      title: 'Licenses & Certifications',
+      list: [
+        {
+          name: 'AWSome DAY Online Conference (Attendance Certification)',
+          issuer: 'AWS',
+          date: '2023.02.23',
+          image: 'src/assets/images/AWS.avif'
+        },
+        {
+          name: 'Full Stack Web Development Program (Specialize in Back-end)',
+          issuer: 'Alpha Camp',
+          date: '2022.11 – 2023.04',
+          image: 'src/assets/images/FullStack.avif'
+        },
+        {
+          name: 'Foundation course of Online Web Development Track',
+          issuer: 'Alpha Camp',
+          date: '2022.06 – 2022.11',
+          image: 'src/assets/images/WebDevelopmentTrack.avif'
+        },
+        {
+          name: 'Gemini Certified Educator',
+          issuer: 'Gemini',
+          date: '2025.09.15',
+          image: 'src/assets/images/Gemini.png'
+        }
+      ]
     }
   },
   zh: {
     hero: {
       title: '嗨，我是 Chloe ',
       subtitle: '全端工程師  · Vue  · node.js',
-      desc: '專注打造以使用者為核心的高品質網頁體驗',
+      desc: '全端開發經驗，專注打造以使用者為核心的高品質網頁體驗',
       projects: '查看作品',
       contact: '聯絡我'
     },
@@ -141,6 +170,35 @@ const messages = {
       en: '英文',
       zh: '中文',
       ja: '日文'
+    },
+    certifications: {
+      title: '證書',
+      list: [
+        {
+          name: 'AWSome DAY Online Conference (Attendance Certification)',
+          issuer: 'AWS',
+          date: '2023.02.23',
+          image: 'src/assets/images/AWS.avif'
+        },
+        {
+          name: 'Full Stack Web Development Program (Specialize in Back-end)',
+          issuer: 'Alpha Camp',
+          date: '2022.11 – 2023.04',
+          image: 'src/assets/images/FullStack.avif'
+        },
+        {
+          name: 'Foundation course of Online Web Development Track',
+          issuer: 'Alpha Camp',
+          date: '2022.06 – 2022.11',
+          image: 'src/assets/images/WebDevelopmentTrack.avif'
+        },
+        {
+          name: 'Gemini Certified Educator',
+          issuer: 'Gemini',
+          date: '2025.09.15',
+          image: 'src/assets/images/Gemini.png'
+        }
+      ]
     }
   },
   ja: {
@@ -212,6 +270,35 @@ const messages = {
       en: '英語',
       zh: '中国語',
       ja: '日本語'
+    },
+    certifications: {
+      title: '資格 & 免許',
+      list: [
+        {
+          name: 'AWSome DAY Online Conference (Attendance Certification)',
+          issuer: 'AWS',
+          date: '2023.02.23',
+          image: 'src/assets/images/AWS.avif'
+        },
+        {
+          name: 'Full Stack Web Development Program (Specialize in Back-end)',
+          issuer: 'Alpha Camp',
+          date: '2022.11 – 2023.04',
+          image: 'src/assets/images/FullStack.avif'
+        },
+        {
+          name: 'Foundation course of Online Web Development Track',
+          issuer: 'Alpha Camp',
+          date: '2022.06 – 2022.11',
+          image: 'src/assets/images/WebDevelopmentTrack.avif'
+        },
+        {
+          name: 'Gemini Certified Educator',
+          issuer: 'Gemini',
+          date: '2025.09.15',
+          image: 'src/assets/images/Gemini.png'
+        }
+      ]
     }
   }
 };

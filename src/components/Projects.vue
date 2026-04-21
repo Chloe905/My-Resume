@@ -51,7 +51,7 @@ const projects = computed(() => [
               target="_blank"
               class="text-sm border border-primary text-primary px-3 py-1 rounded-lg hover:bg-primary hover:text-white transition"
             >
-              {{ link.label }} →</a
+              {{ link.label }}→</a
             >
           </div>
         </div>
