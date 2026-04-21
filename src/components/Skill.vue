@@ -1,9 +1,9 @@
 <script setup>
-const skills = ['Vue.js', 'Pinia', 'JavaScript', 'Tailwind CSS', 'Vite'];
+const skills = ['Vue.js', 'Vite', 'Node.js', 'JavaScript', 'Pinia', 'Express'];
 
-const familiar = ['React', 'Node.js', 'Express', 'MongoDB', 'MySQL'];
+const familiar = ['TypeScript', 'React', 'Tailwind CSS', 'Bootstrap', 'MongoDB', 'MySQL'];
 
-const others = ['Git', 'GitHub', 'n8n', 'RESTful API', 'VS Code'];
+const others = ['Git', 'GitHub', 'n8n', 'Vercel', 'RESTful API', 'VS Code'];
 
 const languages = [
   { name: 'English', level: 70 },
@@ -13,7 +13,7 @@ const languages = [
 </script>
 
 <template>
-  <section class="py-20 px-6 bg-[#6b8075] text-white">
+  <section class="py-20 px-6 bg-primary text-white">
     <div class="max-w-6xl mx-auto">
       <!-- Title -->
       <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Skills</h2>

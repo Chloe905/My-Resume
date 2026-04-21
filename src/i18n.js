@@ -14,8 +14,16 @@ const messages = {
       contact: 'Contact'
     },
     footer: {
-      text: '© 2026 Chloe',
-      contact: 'Contact Me'
+      text: '© 2026 Chloe'
+    },
+    projects: {
+      travel: {
+        title: 'Travel Translation Assistant',
+        desc: 'A multilingual web app for travel spot search, weather info, and real-time translation, built with a decoupled frontend-backend architecture and deployed on Vercel.',
+        feature1: 'Google Map integration for spot search and categorized favorites',
+        feature2: 'Real-time weather info with multi-location support',
+        feature3: 'DeepL AI-powered real-time translation + voice input'
+      }
     }
   },
   zh: {
@@ -31,8 +39,16 @@ const messages = {
       contact: '聯絡'
     },
     footer: {
-      text: '© 2026 Chloe',
-      contact: '聯絡我'
+      text: '© 2026 Chloe'
+    },
+    projects: {
+      travel: {
+        title: '旅遊翻譯多功能小幫手',
+        desc: '集旅遊景點查詢、天氣與即時翻譯的 Web 多語系應用，前後端分離架構並部署於 Vercel。',
+        feature1: 'Google Map 地圖景點查詢與收藏分類',
+        feature2: '即時天氣與多地點查詢',
+        feature3: 'DeepL AI 即時翻譯＋語音輸入'
+      }
     }
   },
   ja: {
@@ -48,8 +64,16 @@ const messages = {
       contact: 'お問い合わせ'
     },
     footer: {
-      text: '© 2026 Chloe',
-      contact: 'お問い合わせ'
+      text: '© 2026 Chloe'
+    },
+    projects: {
+      travel: {
+        title: '旅行翻訳アシスタント',
+        desc: '旅行スポット検索、天気情報、リアルタイム翻訳の多言語Webアプリで、フロントエンドとバックエンドが分離されたアーキテクチャで構築され、Vercelにデプロイされています。',
+        feature1: 'Google Map統合によるスポット検索とカテゴリ別のお気に入り',
+        feature2: '複数の場所をサポートするリアルタイムの天気情報',
+        feature3: 'DeepL AIによるリアルタイム翻訳＋音声入力'
+      }
     }
   }
 };

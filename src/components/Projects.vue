@@ -1,41 +1,61 @@
+<script setup>
+import { computed } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
+
+const projects = computed(() => [
+  {
+    title: t('projects.travel.title'),
+    desc: t('projects.travel.desc'),
+    tags: ['React', 'Redux', 'Node.js', 'Express', 'Supabase', 'Vite', 'i18n', 'Vercel', 'Google Maps API', 'OpenWeather API', 'DeepL API'],
+    features: [
+      { icon: 'fa-regular fa-map', label: t('projects.travel.feature1') },
+      { icon: 'fa-regular fa-sun', label: t('projects.travel.feature2') },
+      { icon: 'fa-solid fa-globe', label: t('projects.travel.feature3') }
+    ],
+    links: [
+      { label: 'Demo', url: 'https://travel-app-frontend-navy.vercel.app/' },
+      { label: 'Frontend', url: 'https://github.com/Chloe905/travel-app-frontend' },
+      { label: 'Backend', url: 'https://github.com/Chloe905/travel-app-backend' }
+    ]
+  }
+]);
+</script>
+
 <template>
-  <section id="projects" class="py-20 bg-gray-50">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-10 text-[#6b8075]">Projects</h2>
+  <section id="projects" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">Projects</h2>
 
       <div class="grid md:grid-cols-2 gap-6">
-        <div v-for="project in projects" :key="project.title" class="p-6 bg-white rounded-2xl shadow">
-          <h3 class="text-xl font-semibold mb-2 text-[#6b8075]">
-            {{ project.title }}
-          </h3>
-          <p class="text-gray-600 mb-4">
-            {{ project.description }}
-          </p>
+        <div v-for="project in projects" :key="project.title" class="text-primary-dark rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition">
+          <h3 class="text-lg font-bold mb-2">{{ project.title }}</h3>
+          <p class="text-gray-500 text-sm mb-4">{{ project.desc }}</p>
+
+          <ul class="space-y-1 mb-4">
+            <li v-for="f in project.features" :key="f.label" class="text-sm text-gray-600"><i :class="f.icon"></i> {{ f.label }}</li>
+          </ul>
 
           <div class="flex flex-wrap gap-2 mb-4">
-            <span v-for="tech in project.tech" :key="tech" class="text-sm bg-gray-100 px-2 py-1 rounded">
-              {{ tech }}
+            <span v-for="tag in project.tags" :key="tag" class="text-xs px-2 py-1 bg-primary/10 text-primary rounded-full">
+              {{ tag }}
             </span>
           </div>
 
-          <div class="space-x-4">
-            <a :href="project.demo" target="_blank">Demo</a>
-            <a :href="project.github" target="_blank">GitHub</a>
+          <div class="flex gap-3">
+            <a
+              v-for="link in project.links"
+              :key="link.label"
+              :href="link.url"
+              target="_blank"
+              class="text-sm border border-primary text-primary px-3 py-1 rounded-lg hover:bg-primary hover:text-white transition"
+            >
+              {{ link.label }} →</a
+            >
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
-
-<script setup>
-const projects = [
-  {
-    title: 'Travel App',
-    description: 'Travel + Weather + Translation web app',
-    tech: ['Vue', 'Node', 'Vercel'],
-    demo: '#',
-    github: '#'
-  }
-];
-</script>

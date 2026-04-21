@@ -7,12 +7,12 @@ const { t } = useI18n();
 <template>
   <section class="h-screen flex items-center justify-center text-center px-4">
     <div>
-      <!-- 👇 大頭貼 -->
+      <!-- avatar -->
       <div class="flex justify-center mb-6">
         <img src="../assets/avatar.webp" alt="avatar" class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg" />
       </div>
 
-      <h1 class="text-xl md:text-4xl font-bold mb-4 text-[#6b8075]">
+      <h1 class="text-xl md:text-4xl font-bold mb-4 text-primary">
         {{ t('hero.title') }}
       </h1>
 
@@ -25,11 +25,11 @@ const { t } = useI18n();
       </p>
 
       <div class="space-x-4">
-        <a href="#projects" class="bg-[#6b8075] text-white px-6 py-3 rounded-xl inline-block hover:bg-white hover:text-[#6b8075] hover:border-[#6b8075] hover:border transition">
+        <a href="#projects" class="bg-primary text-white px-6 py-3 rounded-xl inline-block hover:bg-white hover:text-primary hover:border-primary hover:border transition">
           {{ t('hero.projects') }}
         </a>
 
-        <a href="#contact" class="border border-[#6b8075] text-[#6b8075] px-6 py-3 rounded-xl hover:bg-[#6b8075] hover:text-white transition">
+        <a href="#contact" class="border border-primary text-primary px-6 py-3 rounded-xl hover:bg-primary hover:text-white transition">
           {{ t('hero.contact') }}
         </a>
       </div>

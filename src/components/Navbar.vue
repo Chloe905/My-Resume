@@ -24,7 +24,7 @@ const selectLang = (lang) => {
 </script>
 
 <template>
-  <nav class="fixed w-full bg-white/80 backdrop-blur border-b">
+  <nav class="fixed w-full bg-white/80 backdrop-blur border-b z-50">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
       <h1 class="font-bold">Chloe</h1>
 
@@ -32,7 +32,7 @@ const selectLang = (lang) => {
         <a href="#projects">{{ t('hero.projects') }}</a>
         <a href="#contact">{{ t('hero.contact') }}</a>
 
-        <!-- 🌐 Dropdown -->
+        <!-- Dropdown -->
         <div class="relative">
           <!-- Button -->
           <button @click="isOpen = !isOpen" class="border px-3 py-1 rounded-lg text-sm hover:bg-gray-100 transition">
