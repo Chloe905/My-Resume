@@ -73,7 +73,7 @@ const messages = {
       ja: 'Japanese'
     },
     certifications: {
-      title: 'Licenses & Certifications',
+      title: 'Certifications',
       list: [
         {
           name: 'AWSome DAY Online Conference (Attendance Certification)',
@@ -98,6 +98,52 @@ const messages = {
           issuer: 'Gemini',
           date: '2025.09.15',
           image: '/Gemini.png'
+        }
+      ]
+    },
+    education: {
+      title: 'Education',
+      tmu: {
+        school: 'Taipei Medical University',
+        degree: 'Respiratory Therapy'
+      },
+      alphacamp: {
+        school: 'Alpha Camp',
+        degree: 'Full Stack Web Development Program (Specialize in Back-end)'
+      }
+    },
+    about: {
+      title: 'About Me',
+      abilities: [
+        {
+          icon: 'fa-solid fa-code',
+          title: 'Development & Maintenance',
+          desc: 'Frontend development and backend API integration using JavaScript / TypeScript, Vue.js, and React.js, ensuring stability and maintainability.'
+        },
+        {
+          icon: 'fa-solid fa-palette',
+          title: 'Web Design & UI',
+          desc: 'Designing responsive, intuitive interfaces with Tailwind CSS, Bootstrap, and other styling frameworks to enhance visual appeal and usability.'
+        },
+        {
+          icon: 'fa-solid fa-users',
+          title: 'UX Optimization',
+          desc: 'User-centered approach — iterating features and flows based on feedback to improve interactivity and efficiency.'
+        },
+        {
+          icon: 'fa-solid fa-rotate',
+          title: 'Refactoring & Legacy Modernization',
+          desc: 'Refactoring vanilla JavaScript into Vue.js / React component-based architecture to reduce redundancy and improve maintainability.'
+        },
+        {
+          icon: 'fa-solid fa-plug',
+          title: 'Full-Stack Integration & Testing',
+          desc: 'Built custom WebSocket testing tools to simulate frontend connections and improve debugging efficiency; integrated third-party APIs.'
+        },
+        {
+          icon: 'fa-brands fa-git-alt',
+          title: 'Code Quality & Collaboration',
+          desc: 'Standardized code style with Prettier / ESLint / CommonJS; ensured code quality through Git PR review workflows.'
         }
       ]
     }
@@ -201,6 +247,52 @@ const messages = {
           image: '/Gemini.png'
         }
       ]
+    },
+    education: {
+      title: '學歷',
+      tmu: {
+        school: '台北醫學大學',
+        degree: '呼吸治療學系'
+      },
+      alphacamp: {
+        school: 'Alpha Camp',
+        degree: '全端網頁開發課程（主修後端）'
+      }
+    },
+    about: {
+      title: '關於我',
+      abilities: [
+        {
+          icon: 'fa-solid fa-code',
+          title: '程式語言開發與維護',
+          desc: '使用 JavaScript / TypeScript、Vue.js、React.js 進行前端開發與後端 API 串接，確保功能穩定與可維護性。'
+        },
+        {
+          icon: 'fa-solid fa-palette',
+          title: '網頁設計與 UI',
+          desc: '設計響應式、美觀且直覺易用的介面，整合 Tailwind CSS、Bootstrap 等前端樣式框架，提升視覺美感與操作便利性。'
+        },
+        {
+          icon: 'fa-solid fa-users',
+          title: '優化使用者體驗',
+          desc: '以使用者為核心，透過迭代與回饋調整功能與流程，改善互動性並提升使用效率。'
+        },
+        {
+          icon: 'fa-solid fa-rotate',
+          title: '舊系統翻新與代碼重構',
+          desc: '將原生 JavaScript 重構為 Vue.js / React 組件化設計，減少冗餘程式碼，提升維護性與開發效率。'
+        },
+        {
+          icon: 'fa-solid fa-plug',
+          title: '前後端整合與測試',
+          desc: '自行開發 WebSocket 測試工具，模擬前端連線，提升除錯效率；串接 API 等外部服務。'
+        },
+        {
+          icon: 'fa-brands fa-git-alt',
+          title: '程式碼品質與團隊協作',
+          desc: '使用 Prettier / ESLint / CommonJS 統一程式碼風格，透過 Git PR 流程確保代碼審核與協作順暢。'
+        }
+      ]
     }
   },
   ja: {
@@ -275,7 +367,7 @@ const messages = {
       ja: '日本語'
     },
     certifications: {
-      title: '資格 & 免許',
+      title: '資格',
       list: [
         {
           name: 'AWSome DAY Online Conference (Attendance Certification)',
@@ -300,6 +392,52 @@ const messages = {
           issuer: 'Gemini',
           date: '2025.09.15',
           image: '/Gemini.png'
+        }
+      ]
+    },
+    education: {
+      title: '学歴',
+      tmu: {
+        school: '台北医学大学',
+        degree: '呼吸療法学科'
+      },
+      alphacamp: {
+        school: 'Alpha Camp',
+        degree: 'フルスタックWeb開発プログラム（バックエンド専攻）'
+      }
+    },
+    about: {
+      title: '自己紹介',
+      abilities: [
+        {
+          icon: 'fa-solid fa-code',
+          title: '開発・保守',
+          desc: 'JavaScript / TypeScript・Vue.js・React.js を使用したフロントエンド開発とバックエンド API 連携を担当し、安定性と保守性を確保。'
+        },
+        {
+          icon: 'fa-solid fa-palette',
+          title: 'Web デザイン・UI',
+          desc: 'Tailwind CSS・Bootstrap などのスタイルフレームワークを活用し、レスポンシブで直感的なインターフェースを設計。'
+        },
+        {
+          icon: 'fa-solid fa-users',
+          title: 'UX 最適化',
+          desc: 'ユーザー中心の設計思想のもと、フィードバックをもとに機能・フローを継続的に改善し、使いやすさを向上。'
+        },
+        {
+          icon: 'fa-solid fa-rotate',
+          title: 'リファクタリング・レガシー刷新',
+          desc: 'バニラ JavaScript を Vue.js / React のコンポーネント設計へリファクタリングし、冗長なコードを削減して保守性を向上。'
+        },
+        {
+          icon: 'fa-solid fa-plug',
+          title: 'フルスタック統合・テスト',
+          desc: 'WebSocket テストツールを独自開発してフロントエンド接続をシミュレーション、デバッグ効率を改善。外部 API も連携。'
+        },
+        {
+          icon: 'fa-brands fa-git-alt',
+          title: 'コード品質・チーム協業',
+          desc: 'Prettier / ESLint / CommonJS でコードスタイルを統一し、Git PR レビューフローでコード品質と協業を確保。'
         }
       ]
     }
