@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
+import catImg from '../assets/images/catImg.jpeg';
 
 const { locale, t } = useI18n();
 
@@ -21,12 +22,22 @@ const selectLang = (lang) => {
   localStorage.setItem('lang', lang);
   isOpen.value = false;
 };
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+};
 </script>
 
 <template>
   <nav class="fixed w-full bg-white/80 backdrop-blur border-b z-50">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-      <h1 class="font-bold">Chloe</h1>
+      <div class="flex justify-between items-center space-x-3 cursor-pointer" @click="scrollToTop">
+        <img :src="catImg" alt="catImg" class="w-8 h-8 md:w-10 md:h-10 object-cover rounded-full" />
+        <h1 class="font-bold">Chloe</h1>
+      </div>
 
       <div class="flex items-center space-x-6">
         <!-- <a href="#projects">{{ t('hero.projects') }}</a> -->
