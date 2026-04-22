@@ -8,7 +8,7 @@ const skills = ['Vue.js', 'Vite', 'Node.js', 'JavaScript', 'Pinia', 'Express'];
 
 const familiar = ['TypeScript', 'React', 'Tailwind CSS', 'Bootstrap', 'MongoDB', 'MySQL'];
 
-const others = ['Git', 'GitHub', 'n8n', 'Vercel', 'RESTful API', 'VS Code'];
+const others = ['Git', 'GitHub', 'n8n', 'Vercel', 'RESTful API'];
 
 const languages = computed(() => [
   { name: t('skill.en'), level: 70 },
