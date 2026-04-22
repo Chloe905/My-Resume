@@ -23,7 +23,7 @@ const education = computed(() => [
 </script>
 
 <template>
-  <section id="education" class="py-20 px-6 bg-primary">
+  <section id="education" class="py-20 px-6 bg-primary-light">
     <div class="max-w-4xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-white">{{ t('education.title') }}</h2>
 

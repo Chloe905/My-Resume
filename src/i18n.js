@@ -25,6 +25,15 @@ const messages = {
         feature1: 'Google Map integration for spot search and categorized favorites',
         feature2: 'Real-time weather info with multi-location support',
         feature3: 'DeepL AI-powered real-time translation + voice input'
+      },
+      projects: {
+        deepl: {
+          title: 'DeepL Translation Server',
+          desc: 'A Node.js + Express translation proxy server that securely forwards DeepL API requests, solving browser CORS restrictions.',
+          feature1: 'Backend proxy to resolve CORS issues',
+          feature2: 'Real-time translation via DeepL API',
+          feature3: 'Secure API key management with .env'
+        }
       }
     },
     experience: {
@@ -172,6 +181,13 @@ const messages = {
         feature1: 'Google Map 地圖景點查詢與收藏分類',
         feature2: '即時天氣與多地點查詢',
         feature3: 'DeepL AI 即時翻譯＋語音輸入'
+      },
+      deepl: {
+        title: 'DeepL Translation Server',
+        desc: '使用 Node.js + Express 建立的翻譯代理伺服器，安全轉發 DeepL API 請求，解決前端 CORS 限制問題。',
+        feature1: '後端代理解決 CORS 問題',
+        feature2: 'DeepL API 即時翻譯',
+        feature3: '.env 保護私密 API 金鑰'
       }
     },
     experience: {
@@ -319,6 +335,15 @@ const messages = {
         feature1: 'Google Map統合によるスポット検索とカテゴリ別のお気に入り',
         feature2: '複数の場所をサポートするリアルタイムの天気情報',
         feature3: 'DeepL AIによるリアルタイム翻訳＋音声入力'
+      },
+      projects: {
+        deepl: {
+          title: 'DeepL Translation Server',
+          desc: 'Node.js + Express で構築した翻訳プロキシサーバー。DeepL API リクエストを安全に転送し、フロントエンドの CORS 問題を解決。',
+          feature1: 'バックエンドプロキシで CORS を解決',
+          feature2: 'DeepL API によるリアルタイム翻訳',
+          feature3: '.env による API キーの安全な管理'
+        }
       }
     },
     experience: {

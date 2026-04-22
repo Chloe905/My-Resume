@@ -19,6 +19,17 @@ const projects = computed(() => [
       { label: 'Frontend', url: 'https://github.com/Chloe905/travel-app-frontend' },
       { label: 'Backend', url: 'https://github.com/Chloe905/travel-app-backend' }
     ]
+  },
+  {
+    title: t('projects.deepl.title'),
+    desc: t('projects.deepl.desc'),
+    tags: ['Node.js', 'Express', 'Axios', 'DeepL API', 'REST API'],
+    features: [
+      { icon: 'fa-solid fa-shield-halved', label: t('projects.deepl.feature1') },
+      { icon: 'fa-solid fa-language', label: t('projects.deepl.feature2') },
+      { icon: 'fa-solid fa-key', label: t('projects.deepl.feature3') }
+    ],
+    links: [{ label: 'GitHub', url: 'https://github.com/Chloe905/translation-server' }]
   }
 ]);
 </script>
